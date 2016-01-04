@@ -523,7 +523,7 @@
             <a aria-label="http://www.highcharts.com/demo/gauge-speedometer" href="@Url.Action("Gallery", "Demo", new {demo = "GaugeSpeedometer", theme = ViewBag.Theme})">Angular gauge </a>
         </li>
         <li class="">
-            <a aria-label="http://www.highcharts.com/demo/gauge-solid" href="@Url.Action("Gallery", "Demo", new {demo = "SolidGauge", theme = ViewBag.Theme})">Solid gauge </a>
+            <a aria-label="http://www.highcharts.com/demo/gauge-solid" href="@Url.Action("Gallery", "Demo", new { demo = "GaugeSolid", theme = ViewBag.Theme })">Solid gauge </a>
         </li>
         <li class="">
             <a aria-label="http://www.highcharts.com/demo/gauge-clock" href="@Url.Action("Gallery", "Demo", new {demo = "GaugeClock", theme = ViewBag.Theme})">Clock </a>
@@ -655,7 +655,7 @@
             <pre>@ViewBag.ControllerCode</pre>
         </div>
         <a class="button" href="javascript:"
-           onclick="hs.htmlExpand(this, { width: 800, headingText: 'Dempo View Code', wrapperClassName: 'draggable-header' })">
+           onclick="hs.htmlExpand(this, { width: 800, headingText: 'Demo View Code', wrapperClassName: 'draggable-header' })">
             View Code &raquo;
         </a>
         <div class="highslide-maincontent" style="display: none">

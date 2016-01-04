@@ -287,6 +287,7 @@
     <Content Include="Content\Areas\Highcharts\Controllers\Shared\ErrorBarController.cs.txt" />
     <Content Include="Content\Areas\Highcharts\Controllers\Shared\FunnelController.cs.txt" />
     <Content Include="Content\Areas\Highcharts\Controllers\Shared\GaugeClockController.cs.txt" />
+    <Content Include="Content\Areas\Highcharts\Controllers\Shared\GaugeSolidController.cs - Copy.txt" />
     <Content Include="Content\Areas\Highcharts\Controllers\Shared\GaugeSolidController.cs.txt" />
     <Content Include="Content\Areas\Highcharts\Controllers\Shared\GaugeSpeedometerController.cs.txt" />
     <Content Include="Content\Areas\Highcharts\Controllers\Shared\HeatMapCanvasController.cs.txt" />
@@ -311,6 +312,7 @@
     <Content Include="Content\Areas\Highcharts\Controllers\Shared\PolygonController.cs.txt" />
     <Content Include="Content\Areas\Highcharts\Controllers\Shared\PyramidController.cs.txt" />
     <Content Include="Content\Areas\Highcharts\Controllers\Shared\RendererController.cs.txt" />
+    <Content Include="Content\Areas\Highcharts\Controllers\Shared\GaugeDualController.cs.txt" />
     <Content Include="Content\Areas\Highcharts\Controllers\Shared\ScatterController.cs.txt" />
     <Content Include="Content\Areas\Highcharts\Controllers\Shared\SharedController.cs.txt" />
     <Content Include="Content\Areas\Highcharts\Controllers\Shared\SparklineController.cs.txt" />
@@ -851,6 +853,7 @@
     <Content Include="Areas\Highcharts\Views\Shared\ComboTimeline.cshtml" />
     <Content Include="Areas\Highcharts\Views\Shared\GaugeSolid.cshtml" />
     <Content Include="Areas\Highcharts\Views\Shared\GaugeClock.cshtml" />
+    <Content Include="Areas\Highcharts\Views\Shared\GaugeDual.cshtml" />
     <None Include="Areas\Highcharts\Views\Shared\LineTimeSeries.cshtml" />
     <Content Include="downloads\Highcharts_ASPNET_MVC_4_1_7_0.zip" />
     <Content Include="Help\fti\FTI_100.json" />

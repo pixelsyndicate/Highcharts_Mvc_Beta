@@ -1,5 +1,4 @@
 ﻿@using Highsoft.Web.Mvc.Charts
-@using Chart = Highsoft.Web.Mvc.Charts.Chart
 
     @(Html.Highsoft().Highcharts(
         new Highcharts
@@ -18,7 +17,7 @@
             },
             Title = new Title
             {
-                Text = "Speedometer"
+                Text = "Speedometer with dual axes"
             },
             Pane = new Pane
             {
@@ -42,6 +41,52 @@
                     TickPosition = YAxisTickPosition.Inside,
                     TickLength = 10,
                     TickColor = "#666",
+                    Labels = new YAxisLabels
+                    {
+                        Step = 2
+                    },
+                    Title = new YAxisTitle
+                    {
+                        Text = "km/h"
+                    },
+                    PlotBands = new List<YAxisPlotBands>
+                    {
+                        new YAxisPlotBands
+                        {
+                            From = 0,
+                            To = 120,
+                            Color = "#55BF3B"
+                        },
+                        new YAxisPlotBands
+                        {
+                            From = 120,
+                            To = 160,
+                            Color = "#DDDF0D"
+                        },
+                        new YAxisPlotBands
+                        {
+                            From = 160,
+                            To = 200,
+                            Color = "#DF5353"
+                        }
+                        
+                    }
+                },
+                new YAxis
+                {
+                    Min = 0,
+                    Max = 124,
+                    MinorTickInterval = "auto",
+                    MinorTickWidth = 1,
+                    MinorTickLength = 5,
+                    MinorTickPosition = YAxisMinorTickPosition.Outside,
+                    MinorTickColor = "#933",
+                    
+                    TickPixelInterval = 30,
+                    TickWidth = 2,
+                    TickPosition = YAxisTickPosition.Outside,
+                    TickLength = 5,
+                    TickColor = "#933",
                     Labels = new YAxisLabels
                     {
                         Step = 2
